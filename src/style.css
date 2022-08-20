@@ -1,0 +1,29 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+}
+
+.navBtn {
+    border: 1px solid black;
+    padding: 25px;
+    margin: 25px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.navBtn:hover {
+    background-color: blue;
+}
+
+.mainArea {
+    margin: 25px;
+    padding: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headingText {
+    border: 1px solid black;
+}
