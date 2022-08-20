@@ -26,4 +26,40 @@
 
 .headingText {
     border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.infoDiv {
+    border: 2px solid black;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 5px;
+    width: 500px;
+    align-self: center;
+}
+
+.hoursDiv {
+    align-self: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.locationDiv {
+    align-self: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 20px;
 }
