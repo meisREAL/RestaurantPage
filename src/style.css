@@ -63,3 +63,37 @@
     padding: 5px;
     font-size: 20px;
 }
+
+.menuChoice {
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    width: 300px;
+    align-self: center;
+}
+
+.choice {
+    border: 1px solid black;
+    width: 500px;
+    margin-top: 15px;
+    padding: 5px;
+    align-self: center;
+}
+
+.choiceName {
+    margin: 5px;
+    font-size: 23px;
+}
+
+.choiceText {
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.choicePrice {
+    text-align: end;
+    font-size: 20px;
+}
