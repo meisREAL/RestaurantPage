@@ -8,3 +8,5 @@ mainPage();
 
 const menuBtn = document.getElementById('menu');
 menuBtn.addEventListener('click', foodPage);
+const homeBtn = document.getElementById('home');
+homeBtn.addEventListener('click', mainPage);

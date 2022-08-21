@@ -1,8 +1,12 @@
 function mainPage() {
     const mainDiv = document.getElementById('content');
-
+    const checker = document.querySelector('.mainArea')
+    if (checker) {
+        document.getElementById('content').removeChild(checker)
+    }
     const mainArea = document.createElement('div');
     mainArea.classList.add('mainArea');
+
 
     const headingPlace = document.createElement('div');
     headingPlace.classList.add('headingText');
