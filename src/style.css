@@ -97,3 +97,18 @@
     text-align: end;
     font-size: 20px;
 }
+
+.contact {
+    margin: 25px;
+    border: 1px solid black;
+}
+
+.contactName {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.contactPlace {
+    font-size: 25px;
+    margin: 5px;
+}
